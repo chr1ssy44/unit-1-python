@@ -2,11 +2,11 @@
 print('Christina')
 
 #exercise 2:
-favorite_show= 'The Parkers'
+favorite_show = 'The Parkers'
 
 #exercise 3:
-height= 62
-age= 16
+height = 62
+age = 16
 
 print(height * age)
 
@@ -14,7 +14,7 @@ print(height * age)
 print('im going to break')
 
 # exercise 5:
-fav_food=['pizza', 'chicken', 'tacos']
+fav_food = ['pizza', 'chicken', 'tacos']
 
 #exercise 6:
 if age >= 21:
@@ -23,13 +23,14 @@ else:
     print('your beat')
 
 #exercise 7:
-name= input
-input('what is your name?')
-print('Hello' + name)
+Their_Name = input('What is your name?')
+print("Hello  " + Their_Name)
 
 #exercise 8:
+for x in fav_food:
+    print(x)
 
 #exercise 9:
-
-
-
+x = 1
+while x == 2:
+    print("equal")
