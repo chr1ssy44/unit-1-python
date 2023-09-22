@@ -43,7 +43,7 @@ fruits = {
     'oranges': 9,
     'tangerine':10
 }
-print(fruits)
+print(fruits['oranges'])
 
 """
 TASK 5:
