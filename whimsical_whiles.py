@@ -39,17 +39,17 @@ else:
 5. Sum of Digits:
 Write a program that calculates the sum of the digits of a given number using a while loop.
 """
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-
-while a & b >= 0:
-    print(a + b)
-    break
-# I created two variables for the users input then created a while loop the make a and b greater than or equal to zero. Then to print the sum of the two digits.
+a = 5
+b = 4
+ 
 """
 6. Fibonacci Series:
 Write a program that prints the first n numbers in the Fibonacci sequence using a while loop.
 """
 c = 1 
 while c >= 1:
-    print
+    print(c)
+    c += 1
+    if c == 377:
+        break
+   
