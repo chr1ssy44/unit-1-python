@@ -25,4 +25,7 @@ Excercise 4:
 Write a program that asks the user for their birthdate and calculates their current 
 age using the datetime module.
 """
-y = input("When is your birthday? ")
+x = datetime.datetime.now()
+y = int(input("When is your birthdate? "))
+age = print("Your age is", x.year-y)
+#I created x as the variable for datetime.datetime.now(), I made a input and coverted it into an interger. Then I set another variable age to print the year and subtract it by the user year of birthyear. Then it will print there current age.
